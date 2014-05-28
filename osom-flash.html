@@ -1,0 +1,18 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<polymer-element name="osom-flash" attributes="type">
+<template>
+  <div class={{css}} data-alert="alert">
+	    <shadow>
+      </shadow>
+    <a className="close" href='{{link}}' data-dismiss="alert">Ã—</a>
+  </div>
+</template>
+  <script>
+    Polymer('osom-flash', {
+      type: 'notice',
+      link: '#',
+      css: "alert alert-" + ('notice' == 'notice' ? 'success' : 'error')
+    });
+  </script>
+</polymer-element>
