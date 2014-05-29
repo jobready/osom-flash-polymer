@@ -1,7 +1,6 @@
-# osom-flash
+# Osom Flash (Polymer Flash Message)
 
 osom-flash is a polymer web component for presenting rails flash messages.
-
 
 ## Example
 
